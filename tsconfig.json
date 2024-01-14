@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "outDir": "dist", // where to put the compiled JS files
+    "target": "ESNext", // which level of JS support to target
+    "module": "NodeNext", // which system for the program AMD, UMD, System, CommonJS
+    "rootDir": "src",
+    // Recommended: Compiler complains about expressions implicitly typed as 'any'
+    "noImplicitAny": true, 
+  },
+  
+  "exclude": ["node_modules"], // which files to skip
+}

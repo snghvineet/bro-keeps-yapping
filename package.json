@@ -1,0 +1,38 @@
+{
+    "name": "bro-keeps-yapping",
+    "version": "1.0.0",
+    "description": "A place where everyone can keep yapping",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/main.ts",
+        "test": "jest",
+        "lint": "eslint --ignore-path .eslintignore --ext .js,.ts"
+    },
+    "author": "snghvineet",
+    "license": "ISC",
+    "dependencies": {
+        "@types/pg": "^8.10.9",
+        "dotenv": "^16.3.1",
+        "express": "^4.18.2",
+        "http-status-codes": "^2.3.0",
+        "pg": "^8.11.3",
+        "ws": "^8.16.0",
+        "zod": "^3.22.4"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.11.0",
+        "@types/ws": "^8.5.10",
+        "@typescript-eslint/eslint-plugin": "^6.18.1",
+        "@typescript-eslint/parser": "^6.18.1",
+        "eslint": "^8.56.0",
+        "eslint-config-standard-with-typescript": "^43.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "nodemon": "^3.0.2",
+        "prettier": "^3.2.2",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
